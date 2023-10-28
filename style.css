@@ -148,7 +148,62 @@ a:hover {
 	background-image: url('https://static.dezeen.com/uploads/2018/10/walt-disney-hall-frank-gehry-projection-la-phil-refik-anadol_dezeen_2364_col_0.jpg');
 	background-size: cover;
 	background-position: center;
-}
+	}
+
+	.navBox {
+	display: flex;
+	justify-content: center;
+	padding: 30px 10px;
+	}
+
+	.navMenu {
+	display : flex;
+	justify-content: center;
+	font-size: 25px;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+	}
+
+	.bio1 {
+	font-size: 35px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	color: #fd6325;
+	}
+
+	.bio2 {
+	font-size: 18px;
+	line-height: 35px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	}
+
+	.artistName {
+	flex-direction: column;
+	font-size: 35px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	color: #fd6325;
+  padding-left: 10vw;
+  padding-right: 10vw;
+	}
+
+	.portContainer1 {
+	padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	}
+
+	.portImg {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding-bottom: 25px;
+	}
+
 }
 
 
