@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	background: #000;
+	color: #ffffff;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBox {
+	display: flex;
+	justify-content: center;
+	padding: 50px 30px;
+}
+
+.navMenu {
+	display : flex;
+	justify-content: center;
+	width: 80vmin;
+	font-size: 30px;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ff0072;
+}
+
+.heaDer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 12vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 60vh;
+	background-image: url('https://static.dezeen.com/uploads/2018/10/walt-disney-hall-frank-gehry-projection-la-phil-refik-anadol_dezeen_2364_col_0.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.descripContainer {
+	padding-top: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+	font-family: 'Manrope', sans-serif;
+	flex-direction: column;
+}
+
+.bio1 {
+	font-size: 45px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	color: #fd6325;
+}
+
+.bio2 {
+	font-size: 25px;
+	line-height: 50px;
+	padding-bottom: 1vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.highLi1 {
+	color: #ff0072;
+}
+
+.artistName {
+	display: flex;
+	justify-content: center;
+	font-size: 45px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	color: #fd6325;
+}
+
+.portContainer1 {
+	padding-bottom: 75px;
+  display: flex;
+	justify-content: space-evenly;
+}
+
+.portImg {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.portImg img {
+  	width: 100%;
+  	height: 200px;
+  	border-radius: 5%;
+}
+
+.nameTag {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.nameTag {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Questrial', sans-serif;
+}
+
+.portImg:hover .nameTag {
+	opacity: 1;
+}
+
+
+
